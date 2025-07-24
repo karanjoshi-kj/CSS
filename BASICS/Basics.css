@@ -1,0 +1,29 @@
+p{
+    color: red;
+    font-size: 50px;
+    font-style: italic;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    font-weight: 100;
+    font-variant: normal;
+}
+
+/* THE LAST PARAGRAPH WILL HIT OR RENDER IT DUE TO IT'S HIGHER PRIORITY. */
+
+p{
+    color: rgb(52, 157, 75);
+}
+p{
+   font-size:80px;
+}
+p{
+    font-style: normal;
+}
+p{
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+p{
+    font-weight: 200;
+}
+p{
+    font-variant: unset;
+}
