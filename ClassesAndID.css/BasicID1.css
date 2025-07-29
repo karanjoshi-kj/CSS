@@ -1,0 +1,21 @@
+/* IT ALSO CONSIST PSEUDO CLASS  */
+.highlight{
+    background-color: lightpink;
+    color: blanchedalmond;
+}
+
+#important{
+    color: lightcoral;
+    text-align: center;
+    font-size: 24px;
+}
+
+#btn{
+   background-color: black  ;
+   color: aliceblue;
+}
+
+#btn:hover{
+    background-color: blue;
+    color: aliceblue;
+}

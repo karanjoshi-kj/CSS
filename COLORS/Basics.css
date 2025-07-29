@@ -1,0 +1,43 @@
+ /* NOTATION 1 :: IN THIS I HAVE USED RGB WHICH ARE THE BASIC COLOR ( RED , GREEN  , BLUE ) , THROUGH WHICH WE CAN MAKE ANY COLOR .  */
+
+h1{
+    color: red;
+    /* color: rgb(255, 0, 0); */
+}
+
+p{
+    color: rgb(0, 0, 255);
+}
+
+/*NOTATION 2 :: RGBA NOTATION WHICH IS SIMILAR TO RGB NOTATION WHERE A STANDS FOR ALPHA CHANNEL FOR OPACITY(DENSITY) CONTROL  */
+
+h1{
+    /* color: red; */
+    color: rgba(255, 0, 0 ,1);
+}
+
+p{
+    color: rgba(0, 0, 255, 0.8);
+}
+
+/* NOTATION 3 :: HEXDECIMAL COLOR :: IT IS RARELY USED  */
+
+h1{
+    /* color: red; */
+    color: #ff0000;
+}
+
+p{
+    color: #0000ff;
+}
+
+/*NOTATION 4 :: HSL COLORS : (HUE , SATURATION , LIGHTNESS) VALUES PROVIDE A WAY TO SPECIFY COLOR BASED ON THEIR HUE , SATURATION AND LIGHTNESS  */
+
+h1{
+    /* color: red; */
+    color: hsl(0, 100%, 50%);
+}
+
+p{
+    color: hsl(226, 84%, 17%);
+}
