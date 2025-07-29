@@ -1,0 +1,47 @@
+/* ABSOLUTE LENGTHS : THESE UNITS ARE FIXED AND A LENGHT EXPRESSED  IN ANY OF THESE  WILL APPEAR EXACTLY AS THAT PF SIZE  */
+
+/* RELATIVE LENGTH : IT SPECIFIES A LENGHT RELATIVE TO ANOTHER LENGTH RELATIVE PROPERTY . RELATIVE LENTH UNITS SCALE BETTER BETWEEN DIFFERNCE RENDERING MEDIUM .  */
+
+/* USING PIXEL (PX) :  */
+h1{
+    font-size: 54px;
+    color: purple;
+}
+
+p{
+    font-size: 36px;
+}
+
+/* FOR PERCENTAGE 100% = 16PX */
+/* MEANS 1PX = 6.25%  */ 
+h1{
+    font-size: 337.5%;
+    color: red;
+}
+
+p{
+    font-size: 36px;
+} 
+
+/* FOR 1em = 16px  */
+h1{
+    font-size: 3.375em;
+    color: lightseagreen;
+}
+
+p{
+    font-size: 2.25em;
+    color: pink;
+    
+} 
+
+/* FOR REM 1rem = WE CAN SPECIFY THE FONT SIZE OF OUR WILL .  */
+html{
+    font-size: 62.5%;
+}
+h1{
+    font-size: 5.4rem;
+}
+p{
+    font-size: 3.6rem;
+}
