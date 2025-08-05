@@ -1,0 +1,17 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.maincont{
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.pratice{
+    height: 15vmax;
+    width: 15vmax;
+    background-color: beige;
+    border: 2px solid black;
+    font-size: 10px;
+}
