@@ -1,0 +1,163 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: white;
+}
+
+footer {
+  display: flex;
+  flex-direction: column;
+  background-color: black;
+  padding: 50px 30px 45px 0;
+}
+
+.formdata table tr {
+  margin: 10px;
+}
+
+.formdata input {
+  padding: 13px;
+  margin: 10px 20px 0 0;
+}
+
+.formdata label {
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.formdata input[type="date"] {
+  color: black;
+  width: 12rem;
+}
+
+.formdata input[type="email"] {
+  width: 15rem;
+}
+
+.formdata input[type="button"] {
+  width: 100%;
+  background-color: transparent;
+  border: 2px solid gray;
+  font-weight: 500;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  font-size: 20px;
+}
+
+.firstDiv .para-content {
+  font-size: 11px;
+}
+
+.firstDiv .info {
+  padding-top: 10px;
+}
+.main-footer {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.firstDiv h1{
+    padding-bottom: 15px;
+}
+.firstDiv {
+  width: 40vmax;
+}
+.firstDiv .formdata{
+    padding-top: 25px;
+}
+.firstDiv .para-content{
+    padding-top: 20px;
+}
+
+
+.SecondDiv h1{
+    font-size: 20px;
+}
+.SecondDiv li {
+  list-style: none;
+  padding: 6px;
+}
+.SecondDiv ul {
+  padding-top: 10px;
+}
+.SecondDiv ul li a {
+  text-decoration: none;
+}
+
+
+
+.thirdDiv h1{
+    font-size: 20px;
+}
+.thirdDiv li {
+  list-style: none;
+  padding: 6px;
+}
+.thirdDiv ul {
+  padding-top: 10px;
+}
+.thirdDiv ul li a {
+  text-decoration: none;
+}
+
+
+.fourthDiv h1{
+    font-size: 20px;
+}
+.fourthDiv li {
+  list-style: none;
+  padding: 6px;
+}
+.fourthDiv ul {
+  padding-top: 10px;
+}
+.fourthDiv ul li a {
+  text-decoration: none;
+}
+
+.extralinks {
+  display: flex;
+  justify-content: space-evenly;
+  padding-top: 40px;
+  border-top: 2px solid #ccc;
+  border-bottom: 2px solid #ccc;
+}
+.extralinks .links{
+    display: flex;
+    justify-content: space-evenly; 
+    padding-bottom: 30px;
+}
+
+.links ul {
+  display: flex;
+  list-style: none;
+  gap: 2vmax;
+}
+.links ul li a {
+  text-decoration: none;
+  gap: 2vmax;
+}
+
+.rights {
+  display: flex;
+}
+
+.reservedrights {
+  margin: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 14px;
+}
+
+.sociallinks ul {
+  display: flex;
+  gap: 30px;
+  padding: 20px 0 0 0;
+}
+
+.sociallinks ul li {
+  list-style: none;
+  font-size: 28px;
+}
