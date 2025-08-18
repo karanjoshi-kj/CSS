@@ -8,4 +8,4 @@ body{
      background-size: 100% 100%;   /*IT SHOWS THAT THE HEIGHT AND WIDTH ARE 100%*/  
     /* background-size: cover;  THE ABOVE LINE CAN ALSO BE DONE BY THIS  */
     /* backdrop-filter: blur(5px);  THIS IS USED TO MAKE THE IMAGE A LITTLE BLUR THIS IS USED WHEN WE HAVE TO MAKE FOCUS ON THE CONENT NOT ON THE IMAGE   */
-}
+} 
