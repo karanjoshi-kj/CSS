@@ -1,0 +1,110 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #ccc;
+    background: linear-gradient(to right , #7413dd , #2575fc);
+}
+
+section{
+    background: white;
+    padding: 30px 40px;
+    border-radius: 10px;
+    width: 500px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+h2{
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+    font-size: 24px;
+    background: lightseagreen;
+    margin: 8px auto 0;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+form div{
+    /* dono inputs half width ho jayege  */
+    flex: 1 1 45%;  
+    display: flex;
+    flex-direction: column;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #ccc;
+}
+
+form{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+
+form div{
+    margin-bottom: 15px;
+}
+
+label{
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #333;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="tel"],
+input[type="password"]{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid white;
+    border-radius: 5px;
+    outline: none;
+    font-size: 14px;
+}
+
+
+fieldset{
+    border: none;
+    margin: 15px 0;
+    width: 100%;
+    display: flex;
+}
+
+legend{
+    font-weight: bold;
+    margin-bottom: 8px;
+}
+
+fieldset label{
+    margin-right: 15px;
+    font-weight: normal;
+}
+
+button{
+    width: 100%;
+    padding: 12px;
+    border: none;
+    border-radius: 5px;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
